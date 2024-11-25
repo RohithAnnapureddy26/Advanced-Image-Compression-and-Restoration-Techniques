@@ -26,17 +26,17 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 - Implements and compares 5 image compression algorithms (3 traditional: JPEG, PNG, JPEG2000; and 2 modern: AVIF, WebP). Evaluates results using metrics like PSNR, SSIM, compression ratio, and decoding time.
 
 📁 Image Restoration
-- "DnCNN/"
+"DnCNN/"
 -  "DnCNN.ipynb:" Implements a Deep Convolutional Neural Network for image denoising and evaluates using PSNR, SSIM, and MSE.
 
-- "ESR_GAN/"
+"ESR_GAN/"
 - "ESR_GAN_Implementation_DIP.ipynb:" Implements Enhanced Super-Resolution GAN to upscale and restore degraded images.
 - "Metrics_for_ESR_GAN_DIP.ipynb:" Evaluates ESRGAN using PSNR, SSIM, and LPIPS.
 
-- "SwinIR/"
+"SwinIR/"
 - "Swin_IR.ipynb:" Uses SwinIR (Swin Transformer for Image Restoration) with medium and large models for super-resolution tasks.
 
-- "U_Net/"
+"U_Net/"
 - "U_Net.ipynb:" Implements U-Net for image restoration, focusing on improving PSNR and SSIM.
 
 ### How To Use
