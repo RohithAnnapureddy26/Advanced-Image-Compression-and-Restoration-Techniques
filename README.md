@@ -17,14 +17,18 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 
 ### Repository Structure
 📁 Data Preperation
-- Data_Preparation.ipynb: Jupyter notebook to download and prepare the DIV2K dataset from Kaggle.
+- Data_Preparation.ipynb
+- Jupyter notebook to download and prepare the DIV2K dataset from Kaggle.
     - Output: Training, validation, and test datasets with both high-resolution and degraded low-resolution images.
 
-
 📁 Image Compression
+- Image_Compression_Final.ipynb
+- Implements and compares 5 image compression algorithms (3 traditional: JPEG, PNG, JPEG2000; and 2 modern: AVIF, WebP). Evaluates results using metrics like PSNR, SSIM, compression ratio, and decoding time.
 
-
-📁 Image Compression
+📁 Image Restoration
+- DnCNN/
+    - DnCNN.ipynb
+    - Implements a Deep Convolutional Neural Network for image denoising and evaluates using PSNR, SSIM, and MSE.
 
 ### Key Features
 #### Compression Methods:
