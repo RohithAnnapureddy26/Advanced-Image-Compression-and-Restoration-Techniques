@@ -2,7 +2,7 @@
 
 This repository contains the project files and codebase for the exploration of Advanced Image Compression and Restoration Techniques. The project focuses on enhancing compression efficiency and restoring high-quality images using both traditional methods and state-of-the-art deep learning approaches.
 
-### Overview
+## Overview
 #### Objectives
 - To study and compare traditional, modern, and deep learning-based image compression methods.
 - To implement restoration methods using GANs and Autoencoders.
@@ -15,7 +15,7 @@ This repository contains the project files and codebase for the exploration of A
 #### Proposed Solution
 A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with deep learning-based restoration techniques to improve image quality.
 
-### Repository Structure
+## Repository Structure
 #### 📁 Data Preperation/
 ##### Data_Preparation.ipynb
 - Jupyter notebook to download and prepare the DIV2K dataset from Kaggle.
@@ -26,7 +26,7 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 ##### Image_Compression_Final.ipynb
 - Implements and compares 5 image compression algorithms (3 traditional: JPEG, PNG, JPEG2000; and 2 modern: AVIF, WebP). Evaluates results using metrics like PSNR, SSIM, compression ratio, and decoding time.
 
-#### 📁 Image Restoration
+#### 📁 Image Restoration/
 
 
 ##### DnCNN/
@@ -42,7 +42,7 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 ##### U_Net/
 - "U_Net.ipynb:" Implements U-Net for image restoration, focusing on improving PSNR and SSIM.
 
-### How To Use
+## How To Use
 
 #### Setup Environment:
 
@@ -68,7 +68,7 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 - Evaluate performance using metrics provided in the notebooks.
 
 
-### Key Features
+## Key Features
 #### Compression Methods:
 
 - Traditional: JPEG, PNG, JPEG2000.
@@ -90,7 +90,7 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 - DIV2K: High-resolution dataset with diverse scenes and textures.
 
 
-### Limitations
+## Limitations
 - Computational complexity of deep learning models.
 - Dependence on high-quality datasets.
 - Generalization challenges in real-world scenarios.
