@@ -90,6 +90,9 @@ A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with d
 - DIV2K: High-resolution dataset with diverse scenes and textures.
 
 
+## PPT: [GROUP_11_PPT.pptx](https://github.com/user-attachments/files/17903264/GROUP_11_PPT.pptx)
+
+
 ## Limitations
 - Computational complexity of deep learning models.
 - Dependence on high-quality datasets.
