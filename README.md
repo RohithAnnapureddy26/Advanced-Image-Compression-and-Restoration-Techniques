@@ -38,7 +38,7 @@ Description: Contains
 
 #### Evaluation Metrics:
 
-Compression Ratio
+- Compression Ratio
 - PSNR (Peak Signal-to-Noise Ratio)
 - SSIM (Structural Similarity Index)
 - LPIPS (Learned Perceptual Image Patch Similarity)
