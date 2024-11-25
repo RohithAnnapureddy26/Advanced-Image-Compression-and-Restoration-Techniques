@@ -16,30 +16,30 @@ This repository contains the project files and codebase for the exploration of A
 A model combining state-of-the-art compression formats (e.g., AVIF, WebP) with deep learning-based restoration techniques to improve image quality.
 
 ### Repository Structure
-📁 Data Preperation/
-- Data_Preparation.ipynb
+#### 📁 Data Preperation/
+##### Data_Preparation.ipynb
 - Jupyter notebook to download and prepare the DIV2K dataset from Kaggle.
 - Output: Training, validation, and test datasets with both high-resolution and degraded low-resolution images.
 
-📁 Image Compression/
+#### 📁 Image Compression/
 
-Image_Compression_Final.ipynb
+##### Image_Compression_Final.ipynb
 - Implements and compares 5 image compression algorithms (3 traditional: JPEG, PNG, JPEG2000; and 2 modern: AVIF, WebP). Evaluates results using metrics like PSNR, SSIM, compression ratio, and decoding time.
 
-📁 Image Restoration
+#### 📁 Image Restoration
 
 
-"DnCNN/"
+##### DnCNN/
 -  "DnCNN.ipynb:" Implements a Deep Convolutional Neural Network for image denoising and evaluates using PSNR, SSIM, and MSE.
 
-"ESR_GAN/"
+##### ESR_GAN/
 - "ESR_GAN_Implementation_DIP.ipynb:" Implements Enhanced Super-Resolution GAN to upscale and restore degraded images.
 - "Metrics_for_ESR_GAN_DIP.ipynb:" Evaluates ESRGAN using PSNR, SSIM, and LPIPS.
 
-"SwinIR/"
+##### SwinIR/
 - "Swin_IR.ipynb:" Uses SwinIR (Swin Transformer for Image Restoration) with medium and large models for super-resolution tasks.
 
-"U_Net/"
+##### U_Net/
 - "U_Net.ipynb:" Implements U-Net for image restoration, focusing on improving PSNR and SSIM.
 
 ### How To Use
